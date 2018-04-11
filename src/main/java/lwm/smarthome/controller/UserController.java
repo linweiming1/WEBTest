@@ -17,7 +17,7 @@ public class UserController {
             + ";charset=UTF-8")
     public @ResponseBody String checkUser(@RequestBody User user) {
         System.out.println("登陆成功");
-        String datas="linweiming";
+        String datas="test data";
         return datas;
     }
 
